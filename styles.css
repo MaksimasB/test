@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-inline-size: 100%;
+  display: block;
+  padding-bottom: 2rem;
+}
+
+:root {
+  font-size: 1.6rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid grey;
+  border-radius: 2rem;
+  gap: 1rem;
+  width: 20rem;
+  padding-block: 4rem;
+}
+
+.stars,
+.review {
+  display: flex;
+  flex-direction: row;
+}
+
+.review {
+  gap: 1rem;
+}
+
+.content {
+  justify-content: flex-start;
+}
+
+.btn {
+  font-size: 1.6rem;
+  padding-inline: 5rem;
+  padding-block: 0.8rem;
+  border-radius: 5rem;
+  border: 1px solid black;
+  background-color: transparent;
+}
+
+.btn:hover {
+  background-color: rgb(85, 85, 202);
+}
